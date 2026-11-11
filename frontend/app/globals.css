@@ -1,0 +1,48 @@
+@import "@fontsource/permanent-marker/index.css";
+@import "@fontsource/caveat/index.css";
+@import "@fontsource/dm-sans/index.css";
+
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --background: #ffffff;
+    --foreground: #111111;
+    --blue: #2338E0;
+    --yellow: #FFC81E;
+    --red: #E3290F;
+  }
+
+  body {
+    background-color: #ffffff;
+    color: #111111;
+    font-family: 'DM Sans', system-ui, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    color: #111111;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  a:hover {
+    color: #2338E0;
+  }
+
+  button {
+    font-family: inherit;
+  }
+}
+
+.font-marker {
+  font-family: 'Permanent Marker', cursive;
+}
+
+.font-caveat {
+  font-family: 'Caveat', cursive;
+}
+
+.font-dmsans {
+  font-family: 'DM Sans', system-ui, sans-serif;
+}
